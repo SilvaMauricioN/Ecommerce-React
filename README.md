@@ -1,12 +1,41 @@
-# React + Vite
+# 🛒 Tech Marketplace App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Esta es una aplicación de e-commerce desarrollada en **React**, diseñada para mostrar productos tecnológicos en una interfaz moderna. Está desplegada en **Vercel** y permite a los usuarios registrarse, iniciar sesión, explorar productos y ver detalles individuales.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Tecnologías utilizadas
 
-## Expanding the ESLint configuration
+- ⚛️ React
+- ⚡ Vite
+- 📦 Firebase (para autenticación y base de datos)
+- 📄 CSS Vanilla
+- 🌐 React Router DOM
+- ☁️ Vercel (despliegue)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🧩 Estructura de la App
+
+El componente principal `App` renderiza los siguientes elementos:
+
+- `Sidebar`: barra lateral de navegación.
+- `NavBar`: barra superior con acciones generales.
+- `ProductFilter`: filtros de categoría o búsqueda de productos.
+- `Routes`: define las rutas principales de navegación.
+
+### 🧭 Rutas configuradas
+
+| Ruta            | Componente             | Descripción                          |
+|-----------------|------------------------|--------------------------------------|
+| `/`             | `LoginPage`            | Página principal (login)             |
+| `/registro`     | `RegisterPage`         | Página de registro                   |
+| `/login`        | `LoginPage`            | Página de inicio de sesión           |
+| `/home`         | `ProductListPage`      | Lista de productos                   |
+| `/detalle`      | `ProductInfoPage`      | Vista de detalle general             |
+| `/detalle/:id`  | `ProductInfoPage`      | Vista de detalle por producto (ID)   |
+
+---
+
+
+
