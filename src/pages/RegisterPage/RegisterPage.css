@@ -1,0 +1,39 @@
+.register-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f8f9fa;
+}
+
+.register-box {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    text-align: center;
+}
+
+.subtitle-register {
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.subtitle-register {
+    color: #666;
+    font-size: 15px;
+    margin-bottom: 20px;
+}
+
+.field-pair {
+    display: flex;
+    gap: 10px;
+}
+
+@media (max-width: 1450px) {
+    .field-pair {
+        display: flex;
+        flex-wrap: wrap;
+    }
+}

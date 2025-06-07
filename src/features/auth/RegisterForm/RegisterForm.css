@@ -1,0 +1,10 @@
+.form-register {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.field-pair {
+    display: flex;
+    gap: 10px;
+}

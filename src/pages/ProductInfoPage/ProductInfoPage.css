@@ -1,0 +1,12 @@
+.product-details-page {
+    max-width: 1200px;
+    margin: 40px auto;
+    padding: 0 16px;
+}
+
+.page-title {
+    font-size: 28px;
+    font-weight: 600;
+    margin-bottom: 30px;
+    color: #222;
+}

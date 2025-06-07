@@ -1,0 +1,34 @@
+.empty-detail {
+    display: flex; 
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; 
+    min-height: 200px; 
+    text-align: center;
+    margin-top: 50px;
+    padding: 20px; 
+}
+
+.empty-detail h2 {
+    font-size: 24px;
+    color: #333333; 
+    margin-bottom: 20px;
+    font-weight: 600; 
+}
+
+.empty-detail-link {
+    display: inline-block;
+    margin-top: 10px;
+    text-decoration: none;
+    background: #ffc831; 
+    color: #ffffff; 
+    padding: 12px 24px; 
+    border-radius: 8px;
+    font-weight: 600; 
+    transition: background-color 0.3s ease;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.empty-detail-link:hover {
+    background-color: #e6b32c;
+}

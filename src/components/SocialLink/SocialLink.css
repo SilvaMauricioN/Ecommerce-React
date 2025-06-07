@@ -1,0 +1,13 @@
+.footer-link {
+    color: #777;
+    text-decoration: none;
+    margin: 0 5px;
+}
+
+.footer-link:hover {
+    text-decoration: underline;
+}
+
+.icon {
+    font-size: 1.2em;
+}
