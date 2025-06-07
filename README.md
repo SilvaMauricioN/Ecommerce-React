@@ -1,4 +1,4 @@
-# 🛒 Tech Marketplace App
+# 🛒 ECOMMERCE App
 
 Esta es una aplicación de e-commerce desarrollada en **React**, diseñada para mostrar productos tecnológicos en una interfaz moderna. Está desplegada en **Vercel** y permite a los usuarios registrarse, iniciar sesión, explorar productos y ver detalles individuales.
 
