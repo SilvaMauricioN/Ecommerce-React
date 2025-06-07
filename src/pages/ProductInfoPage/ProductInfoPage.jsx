@@ -2,7 +2,7 @@ import { React, useEffect, useState } from 'react'
 import { useParams } from 'react-router-dom'
 import ProductCardInfo from '../../components/ProductCardInfo/ProductCardInfo'
 import NoProductSelected from '../../components/NoProductSelected/NoProductSelected'
-import { getProductById } from '../../services/productService'
+import { getProductByIdFireBase } from '../../services/productService'
 import './ProductInfoPage.css'
 
 const ProductInfoPage = () => {
@@ -14,7 +14,8 @@ const ProductInfoPage = () => {
     useEffect(() => {
         const fetchProduct = async () => {
             try {
-                const res = await getProductById(id)
+                console.log(id)
+                const res = await getProductByIdFireBase(id)
                 if (res) {
                     setProduct(res)
                 } else {

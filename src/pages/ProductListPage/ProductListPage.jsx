@@ -1,6 +1,6 @@
 import { REact, useState, useEffect } from 'react';
 import ProductCard from '../../components/ProductCard/ProductCard';
-import { getProducts } from '../../services/productService';
+import { getProductsFireBase } from '../../services/productService';
 import "./ProductListPage.css"
 
 const ProductListPage = () => {
@@ -14,7 +14,7 @@ const ProductListPage = () => {
         setLoading(true);
 
         try {
-            const res = await getProducts();
+            const res = await getProductsFireBase();
             if (res) {
                 setProducts(res);
             } else {
