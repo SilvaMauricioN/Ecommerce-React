@@ -13,7 +13,8 @@
     border: 1px solid #ccc;
     border-radius: 10px;
     text-align: center;
-    width: 25%;
+    width: 100%;
+    max-width: 320px;
     background-color: #fff;
 }
 

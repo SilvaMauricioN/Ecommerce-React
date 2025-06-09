@@ -7,8 +7,7 @@ const ProductListPage = () => {
     const [products, setProducts] = useState([]);
     const [loading, setLoading] = useState(false);
     const [error, setError] = useState('');
-    const [visibleCount, setVisibleCount] = useState(6);
-
+    const [visibleCount, setVisibleCount] = useState(8);
 
     const fetchProductList = async () => {
         setLoading(true);
@@ -32,7 +31,7 @@ const ProductListPage = () => {
     }, []);
 
     const handleLoadMore = () => {
-        setVisibleCount((prev) => prev + 6); 
+        setVisibleCount((prev) => prev + 4); 
     };
 
     const isAdmin = true;
